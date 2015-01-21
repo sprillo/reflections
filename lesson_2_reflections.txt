@@ -25,3 +25,8 @@ The tree diagram shows commits shared between branches, and also those commits w
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches will result in a commit whose parents are thw two last commits on both branches. The current branch label will be moved up to the new commit. Git decides how to merge the two branches by analyzing the least common ancestor of both branches together with the latest commit on both branches.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging is efficient. However, it may not always be possible to merge two commits because of ambiguity. In that case, it will be necessary to manually resolve the conflict.
