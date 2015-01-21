@@ -15,3 +15,8 @@ By comparing the staging area changes against the last commit with git diff --st
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches are usefull when you want to try out a new feature for a proyect, or try experimenting with substantial changes, or make a slightly different version of your proyect, all without affecting the original proyect. Branching will preserve the original proyect (the master branch), and let you work on your branch at the same time.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The tree diagram shows commits shared between branches, and also those commits which are unreachable by some branch, or reachable at all. It also shows us which the HEAD commit is. This also explains the 'detached HEAD' state warning when you git checkout a commit.
