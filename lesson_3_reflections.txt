@@ -18,3 +18,8 @@ Clone copies a complete repository from GitHub into your local workspace, or fro
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 That would provide you the latest modifications on the master branch, for example. If you are working on a feature, you will want to merge origin/master into your feature branch ofter, therefore it is a good idea to hace the latest state of remote stored locally.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+This is pretty much how I've been working all the time! Different people would only be able to modifiy different files to avoid conflicts. It is a total mess...
