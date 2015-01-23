@@ -23,3 +23,8 @@ That would provide you the latest modifications on the master branch, for exampl
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 This is pretty much how I've been working all the time! Different people would only be able to modifiy different files to avoid conflicts. It is a total mess...
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Separate branches are usefull to try out new features before merging them into master. That way, you don't have to worry about breaking things up. Beside, it is the best practice to only change the master branch through pull requests, so that everyone can be notified and review the changes made to master. If you work directly on master, you are likely to mess things up for everyone.
